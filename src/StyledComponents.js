@@ -24,6 +24,6 @@ background-color: ${props => elegirColor(props.type)};
 `
 
 export const GridLayout = styled.div`
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 `
